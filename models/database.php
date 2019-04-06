@@ -8,7 +8,7 @@ class database {
     public function __construct() {
         try {
             // On initialise la base de données hospitalE2NS
-            $this->db = NEW PDO('mysql:host=localhost;dbname=hospitalE2N;charset=utf8', 'root', '');
+            $this->db = NEW PDO('mysql:host=localhost;dbname=hospitalE2N;charset=utf8', 'franck', 'poupette');
         }
 // Autrement un message d'erreur est affiché
         catch (Exception $e) {
